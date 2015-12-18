@@ -1,0 +1,9 @@
+# Usage
+
+You have to mount image folder to optimized into /app directory. Example :
+
+  docker run --rm -v "$( pwd ):/app" pockost/jpegoptim -n -t images/*.jpg
+
+If you run the container without any option help will be show.
+
+  docker run --rm pockost/jpegoptim
